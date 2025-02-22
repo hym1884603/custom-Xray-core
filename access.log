@@ -1,0 +1,12 @@
+2025/02/23 00:02:01 [::1]:50169 accepted tcp:www.google.com:443 email: 123@test.com
+2025/02/23 00:02:04 [::1]:50177 accepted tcp:api.ip.sb:443 email: 123@test.com
+2025/02/23 00:02:14 [::1]:50198 accepted tcp:www.google.com:443 email: 123@test.com
+2025/02/23 00:02:22 127.0.0.1:50206 rejected  proxy/vmess/encoding: failed to read request header > read tcp 127.0.0.1:10808->127.0.0.1:50206: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:26 [::1]:50358 accepted tcp:www.google.com:443 email: 123@test.com
+2025/02/23 00:02:29 [::1]:50367 accepted tcp:api.ip.sb:443 email: 123@test.com
+2025/02/23 00:02:30 127.0.0.1:50371 rejected  proxy/vmess/encoding: failed to read request header > read tcp 127.0.0.1:10808->127.0.0.1:50371: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:31 [::1]:50390 accepted tcp:www.google.com:443 email: 123@test.com
+2025/02/23 00:02:43 [::1]:50588 accepted tcp:www.google.com:443 email: 123@test.com
+2025/02/23 00:02:45 [::1]:50607 accepted tcp:api.ip.sb:443 email: 123@test.com
+2025/02/23 00:03:04 [::1]:50846 accepted tcp:www.google.com:443 email: 1234@test.com
+2025/02/23 00:03:07 [::1]:50858 accepted tcp:api.ip.sb:443 email: 1234@test.com

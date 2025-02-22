@@ -1,0 +1,57 @@
+2025/02/23 00:01:42 [Debug] app/log: Logger started
+2025/02/23 00:01:42 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:10808
+2025/02/23 00:01:42 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:10808
+2025/02/23 00:01:42 [Warning] core: Xray 1.8.20 started
+2025/02/23 00:02:01 [Info] [3878652475] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:02:01 [Info] [3878652475] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:02:01 [Info] [3878652475] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:01 [Debug] [3878652475] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:04 [Info] [776131971] proxy/vmess/inbound: received request for tcp:api.ip.sb:443
+2025/02/23 00:02:04 [Info] [776131971] app/dispatcher: default route for tcp:api.ip.sb:443
+2025/02/23 00:02:04 [Info] [776131971] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:04 [Debug] [776131971] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:05 [Info] [3878652475] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2025/02/23 00:02:12 [Info] [776131971] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2025/02/23 00:02:14 [Info] [4001849794] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:02:14 [Info] [4001849794] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:02:14 [Info] [4001849794] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:14 [Debug] [4001849794] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:16 [Info] [4001849794] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > read tcp [::1]:10808->[::1]:50198: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:16 [Info] [260497326] app/proxyman/inbound: connection ends > proxy/vmess/encoding: failed to read request header > EOF
+2025/02/23 00:02:22 [Info] [3838957515] app/proxyman/inbound: connection ends > proxy/vmess/inbound: invalid request from 127.0.0.1:50206 > proxy/vmess/encoding: failed to read request header > read tcp 127.0.0.1:10808->127.0.0.1:50206: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:26 [Info] [378848620] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:02:26 [Info] [378848620] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:02:26 [Info] [378848620] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:26 [Debug] [378848620] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:29 [Info] [723820623] proxy/vmess/inbound: received request for tcp:api.ip.sb:443
+2025/02/23 00:02:29 [Info] [723820623] app/dispatcher: default route for tcp:api.ip.sb:443
+2025/02/23 00:02:29 [Info] [723820623] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:29 [Debug] [723820623] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:29 [Info] [723820623] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > read tcp [::1]:10808->[::1]:50367: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:29 [Info] [3877349832] app/proxyman/inbound: connection ends > proxy/vmess/encoding: failed to read request header > EOF
+2025/02/23 00:02:30 [Info] [2424107478] app/proxyman/inbound: connection ends > proxy/vmess/inbound: invalid request from 127.0.0.1:50371 > proxy/vmess/encoding: failed to read request header > read tcp 127.0.0.1:10808->127.0.0.1:50371: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:30 [Info] [378848620] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2025/02/23 00:02:31 [Info] [3610707030] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:02:31 [Info] [3610707030] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:02:31 [Info] [3610707030] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:31 [Debug] [3610707030] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:33 [Info] [3610707030] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > read tcp [::1]:10808->[::1]:50390: wsarecv: An existing connection was forcibly closed by the remote host.
+2025/02/23 00:02:43 [Info] [2657684992] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:02:43 [Info] [2657684992] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:02:43 [Info] [2657684992] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:43 [Debug] [2657684992] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:45 [Info] [1516207737] proxy/vmess/inbound: received request for tcp:api.ip.sb:443
+2025/02/23 00:02:45 [Info] [1516207737] app/dispatcher: default route for tcp:api.ip.sb:443
+2025/02/23 00:02:45 [Info] [1516207737] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:45 [Debug] [1516207737] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:02:50 [Info] [1516207737] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2025/02/23 00:03:04 [Info] [1333138247] proxy/vmess/inbound: received request for tcp:www.google.com:443
+2025/02/23 00:03:04 [Info] [1333138247] app/dispatcher: default route for tcp:www.google.com:443
+2025/02/23 00:03:04 [Info] [1333138247] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:03:04 [Debug] [1333138247] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:03:07 [Info] [1425844953] proxy/vmess/inbound: received request for tcp:api.ip.sb:443
+2025/02/23 00:03:07 [Info] [1425844953] app/dispatcher: default route for tcp:api.ip.sb:443
+2025/02/23 00:03:07 [Info] [1425844953] transport/internet/tcp: dialing TCP to tcp:proxy.ipidea.io:2336
+2025/02/23 00:03:07 [Debug] [1425844953] transport/internet: dialing to tcp:proxy.ipidea.io:2336
+2025/02/23 00:03:08 [Info] [1333138247] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2025/02/23 00:03:17 [Debug] app/log: Logger closing
