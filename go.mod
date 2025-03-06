@@ -1,6 +1,7 @@
 module github.com/xtls/xray-core
 
 go 1.21.4
+toolchain go1.23.7
 
 require (
 	github.com/OmarTariq612/goech v0.0.0-20240405204721-8e2e1dafd3a0
@@ -25,7 +26,7 @@ require (
 	golang.org/x/crypto v0.25.0
 	golang.org/x/net v0.27.0
 	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.22.0
+	golang.org/x/sys v0.31.0
 	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.34.2
